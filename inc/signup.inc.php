@@ -68,6 +68,7 @@ if (isset($_POST['signup'])) {
                 header("Location: ../login.php");
                 exit();
             }
+                
         }
     }
     mysqli_stmt_close($stmt);
